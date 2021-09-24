@@ -78,6 +78,6 @@ u{
   text-decoration: underline;
 }
 b{
-  color: white;
-  background: rgb(216, 49, 49);
+  color: #ff5050;
+  text-decoration: underline;
 }
