@@ -51,20 +51,22 @@
       <h4>『Accelerated C++』(Koenig, Moo)</h4>
       <hr width="100%" color="#1733a5" noshade>
     </center>
-
-    <p>#
+    
+    <ul>
+    
+    <li><p>
       We define abstraction as selective ignorance - 
       concentrating on the ideas that are relevant to the task at hand, 
       and ignoring everything else - 
       and we think that it is the most important idea in modern programming.
-    </p>
-    <p>#
+      </p></li>
+    <li><p>
       A variable is an object that has a name.
       An object, in turn, is a part of the computer's memory that has a type. 
       THe distinction between objects and variables is important because,
       as we'll see later, it is possible to have objects that do not have names.
-    </p>
-    <p>#
+      </p></li>
+    <li><p>
     <pre><code>std::string name;  // define name</code></pre>
     is a <b>defnition</b>, which defines our variable named <b>name</b> that has type <b>std::string</b>.
     Because this definition appears within a function body, <b>name</b> is a <b>local variable</b>, 
@@ -73,29 +75,31 @@
     and returns any memory that the variable occupied to the system for other uses. 
     The limited lifetime of local variables is one reason that it is important to distinguish
     between variables and other objects.
-    </p>
-    <p>#
+      </p></li>
+    <li><p>
       Implicit in the type of an object is its <b>interface</b>-the collection of operations that are 
       possible on an object of that type.
-    </p>
-    <p>#
+      </p></li>
+    <li><p>
       There are three events that cause the system to flush the buffer.
       First, the buffer might be full, in which case the library will flush it automatically.
       Second, the library might be asked to read from the standard input stream.
       In that case, the library immediately flushes the output buffer without wating
       for the buffer to become full. The third occasion for flushing the buffer is when
       we explicitly say to do so.
-    </p>
-    <p>#
+      </p></li>
+    <li><p>
       When an operator has different meanings for operands of different types, 
       we say that the operater is <b>overloaded</b>.
-    </p>
-    <p>#
+      </p></li>
+    <li><p>
   <pre><code>std::string z(n, c);</code></pre>
   Defines <b>z</b> as a variable of type <b>std::string</b> that initially contains
   <b>n</b> copies of the character <b>c</b>. Here, <b>c</b> must be a <b>char</b>, 
   not a <b>string</b> or a string literal.
-    </p>
+    </p></li>
     
+  </ul>
+  
   </body>
 </html>
