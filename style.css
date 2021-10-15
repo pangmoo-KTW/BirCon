@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR&display=swap');
+
 body{
   background-color: black;
   color: rgb(102, 255, 217);
@@ -37,23 +37,29 @@ div.note{
   background: rgb(248, 220, 9);
 }
 a:link{
-  color: rgb(255, 121, 77);
+  text-decoration-line: none;
+  color: rgb(248, 220, 9);
 }
 a:visited{
-  color: rgb(255, 121, 77);
+  text-decoration-line: none;
+  color: rgb(248, 220, 9);
 }
 a:hover{
-  color: rgb(255, 121, 77);
+  text-decoration-line: none;
+  color: rgb(77, 77, 255);
 }
 a:active{
-  color: rgb(255, 121, 77);
+  text-decoration-line: none;
+  color: rgb(248, 220, 9);
 }
 
 mark{
-  color: rgb(23, 51, 165);
-  background: rgb(248, 220, 9);
+  font-family: 'Source Code Pro', monospace; 
+  color: rgb(0, 255, 180);
+  background-color: black;
 }
 #red{
+  font-family: 'Noto Serif KR', serif;
   color: white;
   background: rgb(216, 49, 49);
 }
@@ -63,21 +69,21 @@ mark{
   background: rgb(23, 51, 165);
 }
 hr{
-  border: 1px solid #ff794d !important;
+  border: 1px solid #4d4dff !important;
 }
 em{
-  color: #ff5050;
+  color: rgb(198, 57, 57);
   text-decoration: underline;
 }
 strong{
-  color: #ff5050;
+  color: rgb(198, 57, 57);
   text-decoration: underline;
 }
 u{
-  color: #ff5050;
+  color: rgb(198, 57, 57);
   text-decoration: underline;
 }
 b{
-  color: #ff5050;
+  color: rgb(248, 220, 9);
   text-decoration: underline;
 }
