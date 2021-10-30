@@ -37,8 +37,8 @@ div.note{
 
   line-height: 200%;
   font-family: 'Noto Serif KR', serif;
-  padding-left: 30%;
-  padding-right: 30%;
+  padding-left:150px;
+  padding-right:150px;
 }
 #svgelem {
    margin-left:auto;
