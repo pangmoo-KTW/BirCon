@@ -27,6 +27,18 @@ div.note{
   color: black;
   background-color: rgb(103, 159, 164);
 }
+#grid{
+
+  font-family: 'Noto Serif KR', serif;
+  display: grid;
+  grid-template-columns: 150px 1fr;
+}
+#grid #article{
+
+  line-height: 200%;
+  font-family: 'Noto Serif KR', serif;
+  padding-left:25px;
+}
 #svgelem {
    margin-left:auto;
    margin-right:auto;
